@@ -3,7 +3,7 @@
 This project is a frontend app of a pizza shop. There are a lot of functionality cause i have used big amount of technologies that now are top-notched in the frontend development.
 The app was deployed on vercel: [REACT-PIZZA](https://react-pizza-omega-two.vercel.app/)
 ## GIF :trollface:
-![Web App Gif](https://imgur.com/PcK1xsv)
+![Web App Gif](https://imgur.com/LplfiNo)
 ## ⚜️Technologies
 
 - ReactJS
