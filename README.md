@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# ![image](https://github.com/Svyat0x7b/react-pizza/assets/93312228/e658599f-ac88-4e22-84e6-a2b826da8ffb)REACT-PIZZA
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a frontend app of a pizza shop. There are a lot of functionality cause i have used big amount of technologies that now are top-notched in the frontend development.
 
-## Available Scripts
+## Technologies
 
-In the project directory, you can run:
+-ReactJS
+-TypeScript
+-Redux Toolkit
+-React Router V6
+-Axios & Fetch
+-SCSS
+-React Content Loader (for skeletons)
+-React Paginate (for pagination)
+-Lodash.debounce (for setting timeout to send search request to mock backend)
+-Code Splitting (chunks)
+-Lazy Loading
 
-### `npm start`
+## To install the project dependecies execute:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+`npm install`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## To run the project execute:
 
-### `npm test`
+`npm start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## What about backend?
 
-### `npm run build`
+As a backend I`ve used the MockAPI service(https://mockapi.io/). This is a service which provide an simple API for your custom data. Also it provides a sorting and searching on the backend side.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Responsive and Ergonomic Layout
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React Pizza is fully responsive for mobile tablet and desktop devices. There are simple and bright UI. Many options to choose or just enjoy clicking on the buttons(: 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Pages
 
-### `npm run eject`
+The web app contain 4 routes that render different pages:
+-Home `/`
+-Cart `/cart`
+-PizzaItem `/pizzas/:id`
+-NotFound `for any another route`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Plans for future developing and advancing the project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+At that point I have several ides:
+-implement authorization(JWT)
+-real-time chat to support customers(Websocket.io)
+-add the ability to write comments to the pizzas
+-implement the promocodes for inviting friends
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## GIF 
