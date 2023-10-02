@@ -1,30 +1,30 @@
-# ![image](https://github.com/Svyat0x7b/react-pizza/assets/93312228/e658599f-ac88-4e22-84e6-a2b826da8ffb)REACT-PIZZA
+# 🍕REACT-PIZZA
 
 This project is a frontend app of a pizza shop. There are a lot of functionality cause i have used big amount of technologies that now are top-notched in the frontend development.
 
-## Technologies
+## ⚜️Technologies
 
--ReactJS
--TypeScript
--Redux Toolkit
--React Router V6
--Axios & Fetch
--SCSS
--React Content Loader (for skeletons)
--React Paginate (for pagination)
--Lodash.debounce (for setting timeout to send search request to mock backend)
--Code Splitting (chunks)
--Lazy Loading
+- ReactJS
+- TypeScript
+- Redux Toolkit
+- React Router V6
+- Axios & Fetch
+- SCSS
+- React Content Loader (for skeletons)
+- React Paginate (for pagination)
+- Lodash.debounce (for setting timeout to send search request to mock backend)
+- Code Splitting (chunks)
+- Lazy Loading
 
-## To install the project dependecies execute:
+## To install the project dependecies execute: ✔️
 
 `npm install`
 
-## To run the project execute:
+## To run the project execute: ✔️
 
 `npm start`
 
-## What about backend?
+## What about backend? 🔸
 
 As a backend I`ve used the MockAPI service(https://mockapi.io/). This is a service which provide an simple API for your custom data. Also it provides a sorting and searching on the backend side.
 
@@ -32,20 +32,20 @@ As a backend I`ve used the MockAPI service(https://mockapi.io/). This is a servi
 
 React Pizza is fully responsive for mobile tablet and desktop devices. There are simple and bright UI. Many options to choose or just enjoy clicking on the buttons(: 
 
-## Pages
+## Pages 🔸
 
 The web app contain 4 routes that render different pages:
--Home `/`
--Cart `/cart`
--PizzaItem `/pizzas/:id`
--NotFound `for any another route`
+- Home `/`
+- Cart `/cart`
+- PizzaItem `/pizzas/:id`
+- NotFound `for any another route`
 
-## Plans for future developing and advancing the project
+## Plans for future developing and advancing the project 🔸
 
 At that point I have several ides:
--implement authorization(JWT)
--real-time chat to support customers(Websocket.io)
--add the ability to write comments to the pizzas
--implement the promocodes for inviting friends
+- implement authorization(JWT)
+- real-time chat to support customers(Websocket.io)
+- add the ability to write comments to the pizzas
+- implement the promocodes for inviting friends
 
-## GIF 
+## GIF :trollface:
