@@ -1,0 +1,62 @@
+.root {
+  position: relative;
+  left: -120px;
+}
+@media (max-width: 1220px) {
+  .root {
+    left: -60px;
+  }
+  .root .input {
+    width: 200px;
+  }
+}
+@media (max-width: 980px) {
+  .root {
+    left: -20px;
+  }
+}
+@media (max-width: 880px) {
+  .root {
+    left: 0px;
+  }
+}
+
+.input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 8px 40px 8px 20px;
+  width: 300px;
+  border-radius: 10px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  transition: all 0.15s ease-in-out;
+}
+.input:focus {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.searchIcon {
+  width: 24px;
+  height: 24px;
+  opacity: 0.5;
+  position: absolute;
+  right: 10px;
+  bottom: 7px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.searchIcon:hover {
+  opacity: 0.8;
+}
+
+.closeIcon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  bottom: 7px;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.closeIcon:hover {
+  opacity: 0.8;
+}/*# sourceMappingURL=Search.module.css.map */
